@@ -1,16 +1,17 @@
-# KitchenVision AI — Prototype v0.1
+# KitchenVision — Guided design studio
 
-Open `index.html` in a browser. No installation or API key required.
+Live demo: https://jpvndcrpt2-bit.github.io/kitchenvision-ai/
 
-Features: Arabic (Iraqi-first), Persian, English; responsive cabinet configurator; layout/style/material/color controls; optional local photo preview; conceptual SVG kitchen visualization; illustrative IQD quote; WhatsApp share; text specification export.
+## Experience
+Five-step journey: optional photo and measurements, style/color/material, budget range, up to three priorities plus notes, and a project brief.
 
-**Important:** This is a transparent interactive mock, not real AI image editing. Uploaded photos stay in the browser and are not transmitted. A real kitchen-photo generation workflow requires a secure backend and image AI API. The layout options are conceptual, not geometrically precise. Prices are placeholder examples.
+Arabic (Iraqi-first), Persian and English; responsive layout; concept preview; sample IQD cabinet calculation; text download; print/PDF through the browser; optional WhatsApp sharing with recipient selected by the visitor.
 
-Next phase: implement backend image provider, mask-based editing and geometry checks, authenticated seller pricing, rate limits, image retention controls, and verified measurements.
+## Privacy and limits
+Static, browser-only demo. No account, backend, analytics, AI API, dealer submission or persistent answer storage. Photos remain local object URLs and are excluded from exports. Answers disappear when the page closes. Text shared through WhatsApp leaves the browser only when the visitor chooses to share it. Images and layouts are conceptual, not measured construction drawings. All prices are sample rates, excluding worktop, installation, appliances and site visit. Material and color previews are illustrative.
 
+## Run and deploy
+Open index.html directly or serve the folder with a static web server. No dependencies or API key required. GitHub Pages publishes the root of main. Previous versions remain available in Git history.
 
-## Live demo
-https://jpvndcrpt2-bit.github.io/kitchenvision-ai/
-
-## Deployment
-GitHub Pages publishes the root of the main branch. The original supplied demo is preserved in index.html.
+## Validation
+Browser checks: five-step navigation, Arabic/Persian/English, optional photo selection/removal, invalid measurements and reversed budget rejection, three-priority limit, safe text rendering and downloadable brief. JavaScript syntax checked. Print stylesheet provided. Mobile CSS included; browser viewport emulation was limited in the test environment.
